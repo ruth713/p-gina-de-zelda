@@ -15,7 +15,7 @@ body{
 }
 
 #Boton button {
-    background-color:#1a4107; 
+    background-color:#0f2006; 
     border: 1px solid #a5b99e;
     color: #ffffff;
     padding: 0 16px;
@@ -25,8 +25,7 @@ body{
 }
 
 footer{
-    display: flex;
-    justify-content: space-between;
+    justify-content:center;
 }
 
 #Introduccion {
@@ -36,8 +35,14 @@ footer{
     align-items: center;
 
 
-    background-image: url(IMAZELDA/mastersword.jpg);
+    background-image: url(assets/IMAZELDA/mastersword.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+
